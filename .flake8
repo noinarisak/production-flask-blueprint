@@ -1,0 +1,10 @@
+[flake8]
+# E266 too many leading '#' for block comment
+ignore = E266
+exclude = .git,
+    __pycache__,
+    venv,
+    build,
+    dist
+max-complexity = 10
+max-line-length = 120
